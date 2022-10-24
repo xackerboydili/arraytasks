@@ -141,13 +141,17 @@
 //     [ 30,31,32,33,34 ]]))
 
 function first(arr, n) {
-   // let sliced = arr.splice(0, n)
-   // return sliced
    let newarr = []
-   for(let i=0; i<n; i++){
-      newarr.push(arr[i]) 
+   if(n>arr.length){
+      return arr
+   }
+   else{
+      
+      for(let i=0; i<n; i++){
+         newarr.push(arr[i]) 
+      }
    }
    return newarr
    
 }
-console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 0))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 3))
