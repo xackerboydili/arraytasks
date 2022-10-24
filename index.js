@@ -154,4 +154,13 @@ function first(arr, n) {
    return newarr
    
 }
-console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 3))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
+console.log(first(['a', 'b', 'c', 'd', 'e', 'f'], 15))
